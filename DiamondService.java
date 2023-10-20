@@ -5,7 +5,7 @@ public class DiamondService extends MemberService {
 	public boolean login(String id, String password) {
 		System.out.println("Diamond ID: "+ id);
 		System.out.println("You are using Diamond service.");
-		return false;
+		return true;
 	}
 
 	@Override
